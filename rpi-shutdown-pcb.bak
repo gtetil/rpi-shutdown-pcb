@@ -1,0 +1,100 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:rpi-shutdown-pcb
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY85-P IC?
+U 1 1 58B37326
+P 5750 3250
+F 0 "IC?" H 4600 3650 50  0000 C CNN
+F 1 "ATTINY85-P" H 6750 2850 50  0000 C CNN
+F 2 "DIP8" H 6750 3250 50  0000 C CIN
+F 3 "" H 5750 3250 50  0000 C CNN
+	1    5750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 58B373D6
+P 2250 3250
+F 0 "P?" H 2250 3450 50  0000 C CNN
+F 1 "CONN_01X03" H 2250 3050 50  0000 C CNN
+F 2 "" H 2250 3250 50  0000 C CNN
+F 3 "" H 2250 3250 50  0000 C CNN
+	1    2250 3250
+	-1   0    0    -1  
+$EndComp
+Text Notes 2150 3200 2    60   ~ 0
+Vbatt
+Text Notes 2150 3300 2    60   ~ 0
+GND
+Text Notes 2150 3400 2    60   ~ 0
+IGN
+$Comp
+L AS1360-33-T U?
+U 1 1 58B37FC2
+P 3500 4100
+F 0 "U?" H 3600 3900 50  0000 C CNN
+F 1 "AS1360-33-T" H 3500 4350 50  0000 C CNN
+F 2 "" H 3500 4200 50  0000 C CNN
+F 3 "" H 3500 4200 50  0000 C CNN
+	1    3500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58B37FED
+P 9150 3100
+F 0 "P?" H 9150 3250 50  0000 C CNN
+F 1 "CONN_01X02" H 9150 2950 50  0000 C CNN
+F 2 "" H 9150 3100 50  0000 C CNN
+F 3 "" H 9150 3100 50  0000 C CNN
+	1    9150 3100
+	1    0    0    -1  
+$EndComp
+Text Notes 9250 3100 0    60   ~ 0
+Vout
+Text Notes 9250 3200 0    60   ~ 0
+GND
+$EndSCHEMATC

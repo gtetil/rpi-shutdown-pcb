@@ -1,0 +1,319 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:rpi-shutdown-pcb
+LIBS:Smart Tank Motherboard-cache
+LIBS:rpi-shutdown-pcb-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY85-P IC?
+U 1 1 58B37326
+P 6700 3850
+F 0 "IC?" H 5550 4250 50  0000 C CNN
+F 1 "ATTINY85-P" H 7700 3450 50  0000 C CNN
+F 2 "DIP8" H 7700 3850 50  0000 C CIN
+F 3 "" H 6700 3850 50  0000 C CNN
+	1    6700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 58B373D6
+P 1600 3250
+F 0 "P?" H 1600 3450 50  0000 C CNN
+F 1 "CONN_01X03" H 1600 3050 50  0000 C CNN
+F 2 "" H 1600 3250 50  0000 C CNN
+F 3 "" H 1600 3250 50  0000 C CNN
+	1    1600 3250
+	-1   0    0    -1  
+$EndComp
+Text Notes 1500 3200 2    60   ~ 0
+Vbatt
+Text Notes 1500 3300 2    60   ~ 0
+GND
+Text Notes 1500 3400 2    60   ~ 0
+IGN
+$Comp
+L CONN_01X02 P?
+U 1 1 58B37FED
+P 9900 2700
+F 0 "P?" H 9900 2850 50  0000 C CNN
+F 1 "CONN_01X02" H 9900 2550 50  0000 C CNN
+F 2 "" H 9900 2700 50  0000 C CNN
+F 3 "" H 9900 2700 50  0000 C CNN
+	1    9900 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 10000 2700 0    60   ~ 0
+Vout+
+Text Notes 10000 2800 0    60   ~ 0
+Vout-
+$Comp
+L MOSFET_N_(DMN3404L-7) Q?
+U 1 1 58C6C7E6
+P 9200 4750
+F 0 "Q?" H 9450 4825 50  0000 L CNN
+F 1 "MOSFET_N_(DMN3404L-7)" H 9450 4750 50  0000 L CNN
+F 2 "" H 9450 4675 50  0000 L CIN
+F 3 "" H 9200 4750 50  0000 L CNN
+	1    9200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N_(2N7002P,215) Q?
+U 1 1 58C6CAF3
+P 4200 4600
+F 0 "Q?" H 4450 4675 50  0000 L CNN
+F 1 "MOSFET_N_(2N7002P,215)" H 4450 4600 50  0000 L CNN
+F 2 "" H 4450 4525 50  0000 L CIN
+F 3 "" H 4200 4600 50  0000 L CNN
+	1    4200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM3480-3.3 U?
+U 1 1 58C6CBCA
+P 3250 3150
+F 0 "U?" H 2950 3300 50  0000 L CNN
+F 1 "LM3480-3.3" H 3550 3300 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 2750 50  0001 C CIN
+F 3 "" H 3250 3150 50  0000 C CNN
+	1    3250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C6CE0F
+P 3250 5500
+F 0 "#PWR?" H 3250 5250 50  0001 C CNN
+F 1 "GND" H 3250 5350 50  0000 C CNN
+F 2 "" H 3250 5500 50  0000 C CNN
+F 3 "" H 3250 5500 50  0000 C CNN
+	1    3250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58C6CE73
+P 2600 3450
+F 0 "C?" H 2625 3550 50  0000 L CNN
+F 1 "0.1uF" H 2625 3350 50  0000 L CNN
+F 2 "" H 2638 3300 50  0000 C CNN
+F 3 "" H 2600 3450 50  0000 C CNN
+	1    2600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58C6CF22
+P 3950 3450
+F 0 "C?" H 3975 3550 50  0000 L CNN
+F 1 "0.1uF" H 3975 3350 50  0000 L CNN
+F 2 "" H 3988 3300 50  0000 C CNN
+F 3 "" H 3950 3450 50  0000 C CNN
+	1    3950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58C6D252
+P 3800 4650
+F 0 "R?" V 3880 4650 50  0000 C CNN
+F 1 "150" V 3800 4650 50  0000 C CNN
+F 2 "" V 3730 4650 50  0000 C CNN
+F 3 "" H 3800 4650 50  0000 C CNN
+	1    3800 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C6D2D3
+P 4300 4050
+F 0 "R?" V 4380 4050 50  0000 C CNN
+F 1 "100k" V 4300 4050 50  0000 C CNN
+F 2 "" V 4230 4050 50  0000 C CNN
+F 3 "" H 4300 4050 50  0000 C CNN
+	1    4300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58C6D650
+P 9300 3900
+F 0 "R?" V 9380 3900 50  0000 C CNN
+F 1 "0.1" V 9300 3900 50  0000 C CNN
+F 2 "" V 9230 3900 50  0000 C CNN
+F 3 "" H 9300 3900 50  0000 C CNN
+	1    9300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C6DC31
+P 8750 4800
+F 0 "R?" V 8830 4800 50  0000 C CNN
+F 1 "150" V 8750 4800 50  0000 C CNN
+F 2 "" V 8680 4800 50  0000 C CNN
+F 3 "" H 8750 4800 50  0000 C CNN
+	1    8750 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 3150 2750 3150
+Wire Wire Line
+	3250 3450 3250 5500
+Wire Wire Line
+	1800 3250 2250 3250
+Wire Wire Line
+	2250 3250 2250 3800
+Wire Wire Line
+	2250 3800 3950 3800
+Connection ~ 3250 3800
+Wire Wire Line
+	2600 3600 2600 3800
+Connection ~ 2600 3800
+Wire Wire Line
+	2600 2650 2600 3300
+Connection ~ 2600 3150
+Wire Wire Line
+	3950 3800 3950 3600
+Wire Wire Line
+	3750 3150 8150 3150
+Wire Wire Line
+	3950 3150 3950 3300
+Wire Wire Line
+	8150 3150 8150 3600
+Wire Wire Line
+	8150 3600 8050 3600
+Connection ~ 3950 3150
+Wire Wire Line
+	8050 4100 8150 4100
+Wire Wire Line
+	8150 4100 8150 5300
+Wire Wire Line
+	3250 5300 9300 5300
+Connection ~ 3250 5300
+Wire Wire Line
+	4300 4800 4300 5300
+Connection ~ 4300 5300
+Wire Wire Line
+	3950 4650 4000 4650
+Wire Wire Line
+	2100 4650 3650 4650
+Wire Wire Line
+	2100 4650 2100 3350
+Wire Wire Line
+	2100 3350 1800 3350
+Wire Wire Line
+	4300 4200 4300 4400
+Wire Wire Line
+	4300 3900 4300 3150
+Connection ~ 4300 3150
+Wire Wire Line
+	4300 4300 4600 4300
+Wire Wire Line
+	4600 4300 4600 3600
+Wire Wire Line
+	4600 3600 5350 3600
+Connection ~ 4300 4300
+Wire Wire Line
+	2600 2650 9700 2650
+Connection ~ 8150 5300
+Wire Wire Line
+	5350 3800 5150 3800
+Wire Wire Line
+	9300 5300 9300 4950
+Wire Wire Line
+	8900 4800 9000 4800
+Wire Wire Line
+	8600 4800 5000 4800
+Wire Wire Line
+	5000 4800 5000 3700
+Wire Wire Line
+	5000 3700 5350 3700
+Wire Wire Line
+	9300 4550 9300 4050
+Wire Wire Line
+	9300 2750 9300 3750
+Wire Wire Line
+	9300 2750 9700 2750
+Wire Wire Line
+	5150 3800 5150 3350
+Wire Wire Line
+	5150 3350 9300 3350
+Connection ~ 9300 3350
+$Comp
+L R R?
+U 1 1 58C6E5AF
+P 3500 4950
+F 0 "R?" V 3580 4950 50  0000 C CNN
+F 1 "100k" V 3500 4950 50  0000 C CNN
+F 2 "" V 3430 4950 50  0000 C CNN
+F 3 "" H 3500 4950 50  0000 C CNN
+	1    3500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58C6E5F6
+P 8400 5050
+F 0 "R?" V 8480 5050 50  0000 C CNN
+F 1 "100k" V 8400 5050 50  0000 C CNN
+F 2 "" V 8330 5050 50  0000 C CNN
+F 3 "" H 8400 5050 50  0000 C CNN
+	1    8400 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4800 3500 4650
+Connection ~ 3500 4650
+Wire Wire Line
+	3500 5100 3500 5300
+Connection ~ 3500 5300
+Wire Wire Line
+	8400 5200 8400 5300
+Connection ~ 8400 5300
+Wire Wire Line
+	8400 4900 8400 4800
+Connection ~ 8400 4800
+$EndSCHEMATC
