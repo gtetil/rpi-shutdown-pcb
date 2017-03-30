@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:rpi-shutdown-pcb
-LIBS:Smart Tank Motherboard-cache
 LIBS:rpi-shutdown-pcb-cache
 EELAYER 25 0
 EELAYER END
@@ -51,7 +50,7 @@ U 1 1 58B37326
 P 6400 3850
 F 0 "IC1" H 5250 4250 50  0000 C CNN
 F 1 "ATTINY85-P" H 7400 3450 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm" H 7400 3850 50  0000 C CIN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 7400 3850 50  0001 C CIN
 F 3 "" H 6400 3850 50  0000 C CNN
 	1    6400 3850
 	1    0    0    -1  
