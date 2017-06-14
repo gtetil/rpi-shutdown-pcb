@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STEP_DOWN_CONVERTER_(MP2307)
+D STEP_DOWN_CONVERTER_(MP2307)
+F http://www.mouser.com/ds/2/277/MP2307_r1.9-371737.pdf
+$ENDCMP
+#
+#End Doc Library
