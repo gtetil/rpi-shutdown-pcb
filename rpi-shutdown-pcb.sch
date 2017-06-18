@@ -116,7 +116,7 @@ U 1 1 58C6CE73
 P 2300 4200
 F 0 "C1" H 2325 4300 50  0000 L CNN
 F 1 "0.1uF" H 2325 4100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2338 4050 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" H 2338 4050 50  0001 C CNN
 F 3 "" H 2300 4200 50  0000 C CNN
 	1    2300 4200
 	1    0    0    -1  
@@ -127,7 +127,7 @@ U 1 1 58C6CF22
 P 3650 4200
 F 0 "C2" H 3675 4300 50  0000 L CNN
 F 1 "0.1uF" H 3675 4100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3688 4050 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" H 3688 4050 50  0001 C CNN
 F 3 "" H 3650 4200 50  0000 C CNN
 	1    3650 4200
 	1    0    0    -1  
@@ -138,7 +138,7 @@ U 1 1 58C6D252
 P 3500 5400
 F 0 "R2" V 3580 5400 50  0000 C CNN
 F 1 "150" V 3500 5400 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3430 5400 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" V 3430 5400 50  0001 C CNN
 F 3 "" H 3500 5400 50  0000 C CNN
 	1    3500 5400
 	0    1    1    0   
@@ -149,7 +149,7 @@ U 1 1 58C6D2D3
 P 4000 4800
 F 0 "R3" V 4080 4800 50  0000 C CNN
 F 1 "100k" V 4000 4800 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3930 4800 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" V 3930 4800 50  0001 C CNN
 F 3 "" H 4000 4800 50  0000 C CNN
 	1    4000 4800
 	1    0    0    -1  
@@ -160,7 +160,7 @@ U 1 1 58C6E5AF
 P 3200 5700
 F 0 "R1" V 3280 5700 50  0000 C CNN
 F 1 "100k" V 3200 5700 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3130 5700 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" V 3130 5700 50  0001 C CNN
 F 3 "" H 3200 5700 50  0000 C CNN
 	1    3200 5700
 	1    0    0    -1  
@@ -171,7 +171,7 @@ U 1 1 58DAF009
 P 4550 5000
 F 0 "R6" V 4630 5000 50  0000 C CNN
 F 1 "100k" V 4550 5000 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4480 5000 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" V 4480 5000 50  0001 C CNN
 F 3 "" H 4550 5000 50  0000 C CNN
 	1    4550 5000
 	1    0    0    -1  
@@ -182,7 +182,7 @@ U 1 1 594081C5
 P 6200 1950
 F 0 "IC2" H 5900 2250 50  0000 C CNN
 F 1 "STEP_DOWN_CONVERTER_(MP2307)" H 6200 1650 50  0000 C CNN
-F 2 "DIP8" H 6200 1550 50  0001 C CIN
+F 2 "rpi-shutdown-pcb:SOIC8N_(EXPOSED_PAD)" H 6200 1550 50  0001 C CIN
 F 3 "" H 6200 1950 50  0000 C CNN
 	1    6200 1950
 	1    0    0    -1  
@@ -193,7 +193,7 @@ U 1 1 59408304
 P 2300 1800
 F 0 "D1" H 2300 1900 50  0000 C CNN
 F 1 "D_Schottky" H 2300 1700 50  0000 C CNN
-F 2 "" H 2300 1800 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:DO-214AB" H 2300 1800 50  0001 C CNN
 F 3 "" H 2300 1800 50  0001 C CNN
 	1    2300 1800
 	-1   0    0    1   
@@ -269,7 +269,7 @@ U 1 1 594083F6
 P 2900 1800
 F 0 "F1" V 2800 1800 50  0000 C CNN
 F 1 "Polyfuse" V 3000 1800 50  0000 C CNN
-F 2 "" H 2950 1600 50  0001 L CNN
+F 2 "rpi-shutdown-pcb:R_1812_HandSoldering" H 2950 1600 50  0001 L CNN
 F 3 "" H 2900 1800 50  0001 C CNN
 	1    2900 1800
 	0    1    1    0   
@@ -306,7 +306,7 @@ U 1 1 59408836
 P 3950 2600
 F 0 "C3" H 3975 2700 50  0000 L CNN
 F 1 "10uF" H 3975 2500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3988 2450 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" H 3988 2450 50  0001 C CNN
 F 3 "" H 3950 2600 50  0000 C CNN
 	1    3950 2600
 	1    0    0    -1  
@@ -317,7 +317,7 @@ U 1 1 5940899C
 P 4400 2600
 F 0 "C4" H 4425 2700 50  0000 L CNN
 F 1 "10uF" H 4425 2500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4438 2450 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" H 4438 2450 50  0001 C CNN
 F 3 "" H 4400 2600 50  0000 C CNN
 	1    4400 2600
 	1    0    0    -1  
@@ -359,7 +359,7 @@ U 1 1 59408D82
 P 7200 1550
 F 0 "C6" V 7050 1500 50  0000 L CNN
 F 1 "10nF" V 7350 1450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7238 1400 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:C_0805_HandSoldering_(narrow)" H 7238 1400 50  0001 C CNN
 F 3 "" H 7200 1550 50  0000 C CNN
 	1    7200 1550
 	0    1    1    0   
@@ -381,7 +381,7 @@ U 1 1 594090A3
 P 7550 2500
 F 0 "R7" V 7630 2500 50  0000 C CNN
 F 1 "2.2K" V 7550 2500 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 7480 2500 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" V 7480 2500 50  0001 C CNN
 F 3 "" H 7550 2500 50  0000 C CNN
 	1    7550 2500
 	1    0    0    -1  
@@ -392,7 +392,7 @@ U 1 1 5940914B
 P 7800 2200
 F 0 "R8" V 7880 2200 50  0000 C CNN
 F 1 "10k" V 7800 2200 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 7730 2200 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" V 7730 2200 50  0001 C CNN
 F 3 "" H 7800 2200 50  0000 C CNN
 	1    7800 2200
 	0    1    1    0   
@@ -415,7 +415,7 @@ U 1 1 594092E5
 P 8100 2500
 F 0 "C7" H 8125 2600 50  0000 L CNN
 F 1 "33uF" H 8125 2400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8138 2350 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" H 8138 2350 50  0001 C CNN
 F 3 "" H 8100 2500 50  0000 C CNN
 	1    8100 2500
 	1    0    0    -1  
@@ -433,7 +433,7 @@ U 1 1 594095C1
 P 7100 2500
 F 0 "C5" H 7125 2600 50  0000 L CNN
 F 1 "3.9nF" H 7125 2400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7138 2350 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:C_0805_HandSoldering_(narrow)" H 7138 2350 50  0001 C CNN
 F 3 "" H 7100 2500 50  0000 C CNN
 	1    7100 2500
 	1    0    0    -1  
@@ -448,7 +448,7 @@ U 1 1 594096B5
 P 7100 3000
 F 0 "R5" V 7180 3000 50  0000 C CNN
 F 1 "6.8K" V 7100 3000 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 7030 3000 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" V 7030 3000 50  0001 C CNN
 F 3 "" H 7100 3000 50  0000 C CNN
 	1    7100 3000
 	1    0    0    -1  
@@ -478,7 +478,7 @@ U 1 1 5941BD2C
 P 4850 5000
 F 0 "R4" V 4930 5000 50  0000 C CNN
 F 1 "100k" V 4850 5000 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4780 5000 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:R_1206_HandSoldering_(narrow)" V 4780 5000 50  0001 C CNN
 F 3 "" H 4850 5000 50  0000 C CNN
 	1    4850 5000
 	1    0    0    -1  
@@ -493,7 +493,7 @@ U 1 1 5941C28A
 P 1300 1900
 F 0 "P1" H 1300 2100 50  0000 C CNN
 F 1 "CONN_01X03" H 1300 1700 50  0000 C CNN
-F 2 "" H 1300 1900 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:3_PADS_FOR_18_AWG_WIRE" H 1300 1900 50  0001 C CNN
 F 3 "" H 1300 1900 50  0001 C CNN
 	1    1300 1900
 	-1   0    0    -1  
@@ -506,7 +506,7 @@ U 1 1 5941D888
 P 9900 2900
 F 0 "CONN_1" H 9900 3450 50  0000 C CNN
 F 1 "CONN_02X10" V 9900 2900 50  0000 C CNN
-F 2 "" H 9900 1700 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:HEADER_20_PIN_FEMALE_(PPTC102LFBN-RC)" H 9900 1700 50  0001 C CNN
 F 3 "" H 9900 1700 50  0001 C CNN
 	1    9900 2900
 	1    0    0    -1  
