@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:rpi-shutdown-pcb
-LIBS:Smart Tank Motherboard-cache
 LIBS:rpi-shutdown-pcb-cache
 EELAYER 25 0
 EELAYER END
@@ -340,7 +339,7 @@ U 1 1 59408B26
 P 7800 1900
 F 0 "L1" V 7750 1900 50  0000 C CNN
 F 1 "10uH" V 7875 1900 50  0000 C CNN
-F 2 "" H 7800 1900 50  0001 C CNN
+F 2 "rpi-shutdown-pcb:INDUCTOR_10uH_(ASPI-0630LR)" H 7800 1900 50  0001 C CNN
 F 3 "" H 7800 1900 50  0001 C CNN
 	1    7800 1900
 	0    -1   -1   0   
