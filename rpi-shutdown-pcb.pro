@@ -1,4 +1,4 @@
-update=Sun 26 Feb 2017 08:16:43 PM EST
+update=6/27/2017 4:52:28 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=rpi-shutdown-pcb
 LibName31=/home/tetil/Projects/smart-tank-pcb/Motherboard/Smart Tank Motherboard-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
